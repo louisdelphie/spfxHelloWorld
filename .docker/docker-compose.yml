@@ -1,9 +1,0 @@
-services:
-  spfx:
-    image: m365pnp/spfx
-    restart: always
-    ports:
-      - "4321:4321"
-      - "35729:35729"
-    volumes:
-      - ${PWD}:/usr/app/spfx
